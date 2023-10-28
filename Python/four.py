@@ -29,7 +29,7 @@ def word_index(a):
     length = 0
     lgth = []
     for item in a:
-        lgth.append(len(a))
+        lgth.append(len(item))
         if len(item) > length:
             length = len(item)
     if len(set(lgth)) == 1:
